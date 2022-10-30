@@ -1,2 +1,7 @@
-def add(num1, num2):
-    return num1 + num2
+def subtract(num1, num2):
+    return num1 - num2
+if __name__ == "__main__":
+    a = int(input())
+    b = int(input())
+    print(subtract(a, b))
+    
